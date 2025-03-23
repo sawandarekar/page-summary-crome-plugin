@@ -52,8 +52,8 @@ function getSelectedText() {
 }
 
 async function generateSummary(content, lineCount) {
-  const API_KEY = 'AIzaSyATOXLWPMV_KndNkQRSARYBVpQ2B0MDjsg';
-  const API_URL_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyATOXLWPMV_KndNkQRSARYBVpQ2B0MDjsg"
+  const API_KEY = '';
+  const API_URL_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=update it"
 
   const response = await fetch(API_URL_KEY, {
     method: 'POST',
